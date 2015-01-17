@@ -1,0 +1,35 @@
+{
+  "name": "has-dom",
+  "version": "0.0.0",
+  "description": "Check if a JavaScript environment has a DOM",
+  "license": "MIT",
+  "repository": "sindresorhus/has-dom",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "browsers",
+    "dom",
+    "js",
+    "javascript",
+    "env",
+    "environment",
+    "has",
+    "detect",
+    "check"
+  ],
+  "devDependencies": {
+    "ava": "0.0.4"
+  }
+}
