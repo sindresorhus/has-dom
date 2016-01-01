@@ -1,12 +1,10 @@
-'use strict';
-var test = require('ava');
-var hasDom = require('./');
+import test from 'ava';
+import m from './';
 
-test(function (t) {
-	t.assert(!hasDom());
+test(t => {
+	t.false(m());
 	global.window = {};
 	global.document = {};
-	global.document.createElement = function () {};
-	t.assert(hasDom());
-	t.end();
+	global.document.createElement = () => {};
+	t.true(m());
 });
