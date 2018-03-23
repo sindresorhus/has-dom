@@ -1,19 +1,19 @@
 # has-dom [![Build Status](https://travis-ci.org/sindresorhus/has-dom.svg?branch=master)](https://travis-ci.org/sindresorhus/has-dom)
 
-> Check if a JavaScript environment has a [DOM](http://en.wikipedia.org/wiki/Document_Object_Model)
+> Check if a JavaScript environment has a [DOM](https://en.wikipedia.org/wiki/Document_Object_Model)
 
 
 ## Install
 
 ```
-$ npm install --save has-dom
+$ npm install has-dom
 ```
 
 
 ## Usage
 
 ```js
-var hasDom = require('has-dom');
+const hasDom = require('has-dom');
 
 // In Node.js
 hasDom();
@@ -27,4 +27,4 @@ hasDom();
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)

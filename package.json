@@ -1,35 +1,42 @@
 {
-  "name": "has-dom",
-  "version": "1.0.1",
-  "description": "Check if a JavaScript environment has a DOM",
-  "license": "MIT",
-  "repository": "sindresorhus/has-dom",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "ava"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "browsers",
-    "dom",
-    "js",
-    "javascript",
-    "env",
-    "environment",
-    "has",
-    "detect",
-    "check"
-  ],
-  "devDependencies": {
-    "ava": "*"
-  }
+	"name": "has-dom",
+	"version": "1.0.1",
+	"description": "Check if a JavaScript environment has a DOM",
+	"license": "MIT",
+	"repository": "sindresorhus/has-dom",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"browsers",
+		"dom",
+		"js",
+		"javascript",
+		"env",
+		"environment",
+		"has",
+		"detect",
+		"check"
+	],
+	"devDependencies": {
+		"ava": "*",
+		"xo": "*"
+	},
+	"xo": {
+		"envs": [
+			"node",
+			"browser"
+		]
+	}
 }
