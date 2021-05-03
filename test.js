@@ -1,10 +1,10 @@
 import test from 'ava';
-import m from '.';
+import hasDom from './index.js';
 
 test('main', t => {
-	t.false(m());
+	t.false(hasDom());
 	global.window = {};
 	global.document = {};
 	global.document.createElement = () => {};
-	t.true(m());
+	t.true(hasDom());
 });
